@@ -1,0 +1,167 @@
+*******************************************************************************
+ Revised: Aug 19, 2022   Voyager 2 Spacecraft (interplanetary) / (Sun)     -32
+                        http://www.jpl.nasa.gov/missions/voyager-2/
+
+ BACKGROUND
+   See the web-page above for information on the Voyager Mission
+
+ TIMELINE
+   1977-Aug-20  Launch from Kennedy Space Center @ 14:29 UTC
+   1978-Jun     Primary receiver failed, rest of mission on backup
+   1979-Jul-09  Jupiter closest-approach
+   1981-Aug-25  Saturn encounter
+   1986-Jan-24  First Uranus encounter
+   1987         Observes Supernova 1987A
+   1989-Aug-25  First Neptune encounter; begins trip outside solar system
+                 below ecliptic plane
+   1992-Jul-17  Last transponder tracking data
+   2007-Sep-05  Crosses solar system "bow shock" boundary
+   2012-Aug-13  Becomes longest operating spacecraft
+   2018-Nov-15  Crossed heliopause, entered interstellar space
+
+ SPACECRAFT TRAJECTORY:
+   This trajectory is composed of two merged sections:
+
+     #1) 1977-Aug-20 to 1989-Aug-29:
+          A patched conic mission-design type trajectory in which the conics 
+          were constructed to approximately match specific events (such 
+          satellite encounters), providing a rough accuracy. 
+
+     #2) 1989-Aug-29 to 2100-Jan-1 
+          Refit of tracking data spanning 1989-1992 (from Neptune encounter to 
+          the end of two-way coherent transponder data). Produced in 2022 by 
+          R. Jacobson (former Voyager navigation) using DE440 to generate a new
+          solution and long-term prediction. 
+
+   The reconstruction done in 2022 estimated:
+      - Epoch state vector
+      - Constant and stochastic non-gravitational accelerations 
+         (to account for the activity of three-axis attitude control system)
+      - Thermal radiation from RTG power sources
+      - Mismodelling of solar pressure  
+      - 24 impulsive maneuvers
+
+   Note there has been no new tracking data possible since 1992. This is a
+   different issue from on-board telemetry, which continued beyond that date. 
+   DSS-43 (Canberra) is the only DSN site still equipped to communicate with
+   Voyager 2.
+
+   The 2022 update refit the existing old tracking data using modern approaches
+   and standards to allow consistent extrapolation to 2100.
+
+   Formal predicted geocentric pointing uncertainty on 2030-Jan-1:
+     RA +/- 4.718 arcseconds, DEC +/- 3.715 arcseconds
+
+   This uncertainty is consistent with the new solution's difference with 
+   the M05016 prediction made in 1990. 
+ 
+   Tracking data used in 2022 solution:
+     Points Type       First point            Last point       residual rms
+        170   F2   31-Aug-1989 12:57:30  17-Jul-1992 20:17:00  0.137 mm/s
+       1098   F3   30-Aug-1989 01:13:30  30-Oct-1992 18:05:00  0.120 mm/s
+         67  SRA   31-Aug-1989 12:50:01  21-Jul-1991 19:38:58  229 m
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Wed May 29 09:31:44 2024 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Voyager 2 (spacecraft) (-32)    {source: Voyager_2_ST+refit2022_m}
+Center body name: Solar System Barycenter (0)     {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2024-May-22 00:00:00.0000 TDB
+Stop  time      : A.D. 2025-May-23 00:00:00.0000 TDB
+Step-size       : 1 calendar months
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)
+Output units    : KM-S
+Calendar mode   : Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,
+**************************************************************************************************************************************************************************************************
+$$SOE
+2460452.500000000, A.D. 2024-May-22 00:00:00.0000,  5.653241961245911E+09, -1.508209149564171E+10, -1.257605148962271E+10,  4.220281263731659E+00, -9.352559360673471E+00, -1.133077040964791E+01,
+2460483.500000000, A.D. 2024-Jun-22 00:00:00.0000,  5.664545239612836E+09, -1.510714054621376E+10, -1.260639913059646E+10,  4.220040250470676E+00, -9.351929261422345E+00, -1.133025212594362E+01,
+2460513.500000000, A.D. 2024-Jul-22 00:00:00.0000,  5.675483282609277E+09, -1.513137995931718E+10, -1.263576649595229E+10,  4.219807883169811E+00, -9.351322000960401E+00, -1.132975228957642E+01,
+2460544.500000000, A.D. 2024-Aug-22 00:00:00.0000,  5.686785295482669E+09, -1.515642570269036E+10, -1.266611141477321E+10,  4.219568667411927E+00, -9.350697084288372E+00, -1.132923757361638E+01,
+2460575.500000000, A.D. 2024-Sep-22 00:00:00.0000,  5.698086668858424E+09, -1.518146977579780E+10, -1.269645495740072E+10,  4.219330360552934E+00, -9.350074788246530E+00, -1.132872466562218E+01,
+2460605.500000000, A.D. 2024-Oct-22 00:00:00.0000,  5.709022875204473E+09, -1.520570439186741E+10, -1.272581837031090E+10,  4.219100603009982E+00, -9.349475055820708E+00, -1.132823002188535E+01,
+2460636.500000000, A.D. 2024-Nov-22 00:00:00.0000,  5.720322997298412E+09, -1.523074519877774E+10, -1.275615921906530E+10,  4.218864073213665E+00, -9.348857897759437E+00, -1.132772066187598E+01,
+2460666.500000000, A.D. 2024-Dec-22 00:00:00.0000,  5.731257997246570E+09, -1.525497666709317E+10, -1.278552003403633E+10,  4.218636026085806E+00, -9.348263120177473E+00, -1.132722944070066E+01,
+2460697.500000000, A.D. 2025-Jan-22 00:00:00.0000,  5.742556877371774E+09, -1.528001423478328E+10, -1.281585820755153E+10,  4.218401252029501E+00, -9.347651055336145E+00, -1.132672359974111E+01,
+2460728.500000000, A.D. 2025-Feb-22 00:00:00.0000,  5.753855129860686E+09, -1.530505016655106E+10, -1.284619502859512E+10,  4.218167359710145E+00, -9.347041549493309E+00, -1.132621952810767E+01,
+2460756.500000000, A.D. 2025-Mar-22 00:00:00.0000,  5.764059465566237E+09, -1.532766186577709E+10, -1.287359486969481E+10,  4.217956853959167E+00, -9.346493206511960E+00, -1.132576574552360E+01,
+2460787.500000000, A.D. 2025-Apr-22 00:00:00.0000,  5.775356530003068E+09, -1.535269470280182E+10, -1.290392912968081E+10,  4.217724620000056E+00, -9.345888500644508E+00, -1.132526499877967E+01,
+2460817.500000000, A.D. 2025-May-22 00:00:00.0000,  5.786288581842082E+09, -1.537691848994463E+10, -1.293328359030692E+10,  4.217500698706072E+00, -9.345305668868459E+00, -1.132478204926237E+01,
+$$EOE
+**************************************************************************************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Calendar dates are given in the modern Gregorian system, extended prior to
+its 1582-Oct-15 adoption. The Gregorian calendar more closely corresponds to
+physical Earth seasons and orbital motion, but can differ by up to 10 days with
+historical records made under the prior Julian calendar, more if the Julian
+calendar was extended prior to its 45-Jan-1 BC adoption to label the historical
+event. Select "mixed" calendar mode if correlation with historical dates prior
+to A.D. 1582 is important.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

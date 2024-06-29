@@ -1,0 +1,119 @@
+*******************************************************************************
+ Revised: Jan 26, 2022             Mimas / (Saturn)                         601
+                        http://ssd.jpl.nasa.gov/?sat_phys_par
+                         http://ssd.jpl.nasa.gov/?sat_elem
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean Radius (km)        = 198.8   +- 1.5   Density (g/cm^3)  = 1.152 +- 0.027
+  Mass (10^19 kg)         =   3.75           Geometric Albedo  = 0.6 
+  GM (km^3/s^2)           =   2.503489       V(1,0)            = +3.3
+
+ SATELLITE ORBITAL DATA (mean elements referred to local Laplace plane):
+  Semi-major axis, a (km) = 185.54(10^3)    Orbital period     = 0.9424218 d
+  Eccentricity, e         = 0.0196          Rotational period  = Synchronous
+  Inclination, i  (deg)   = 1.572
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Wed May 29 08:51:07 2024 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Mimas (601)                     {source: sat441l}
+Center body name: Solar System Barycenter (0)     {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2024-May-22 00:00:00.0000 TDB
+Stop  time      : A.D. 2025-May-23 00:00:00.0000 TDB
+Step-size       : 1 calendar months
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)
+Output units    : KM-S
+Calendar mode   : Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,
+**************************************************************************************************************************************************************************************************
+$$SOE
+2460452.500000000, A.D. 2024-May-22 00:00:00.0000,  1.378742242355576E+09, -4.452960027389431E+08, -4.719151593307948E+07, -6.111048459761804E+00, -9.013414621066158E-01,  5.749273342868996E+00,
+2460483.500000000, A.D. 2024-Jun-22 00:00:00.0000,  1.385136025814374E+09, -4.206006935707915E+08, -4.791091069349512E+07, -1.136437062588866E+01,  6.408491516492166E+00,  2.503227419415977E+00,
+2460513.500000000, A.D. 2024-Jul-22 00:00:00.0000,  1.390989123776623E+09, -3.966788801452224E+08, -4.854743685718659E+07, -8.059134020805075E+00,  1.830971041845493E+01, -3.822519623869105E+00,
+2460544.500000000, A.D. 2024-Aug-22 00:00:00.0000,  1.396480798336354E+09, -3.718868261369109E+08, -4.915190152602670E+07, -2.489465805786990E-01,  2.204514458553633E+01, -6.473044351226736E+00,
+2460575.500000000, A.D. 2024-Sep-22 00:00:00.0000,  1.401454745743790E+09, -3.469895996929528E+08, -4.972732596237974E+07,  9.102421945651649E+00,  2.035801683572461E+01, -6.426151809645978E+00,
+2460605.500000000, A.D. 2024-Oct-22 00:00:00.0000,  1.405704446785046E+09, -3.227643078553013E+08, -5.027153965324923E+07,  1.597241841125300E+01,  8.632922716958246E+00, -7.984390463950910E-01,
+2460636.500000000, A.D. 2024-Nov-22 00:00:00.0000,  1.409717795012465E+09, -2.975115568778144E+08, -5.088460652525969E+07,  1.235596412376028E+01,  1.285576210073999E+00,  3.417086928508577E+00,
+2460666.500000000, A.D. 2024-Dec-22 00:00:00.0000,  1.413218005292053E+09, -2.728722872011895E+08, -5.152707249129045E+07, -5.799972563027835E-01, -2.697991433719452E+00,  6.764935972472590E+00,
+2460697.500000000, A.D. 2025-Jan-22 00:00:00.0000,  1.416515765312928E+09, -2.473882428428053E+08, -5.215221673378138E+07, -9.194172419945653E+00,  1.167633720116315E+00,  5.571962922444262E+00,
+2460728.500000000, A.D. 2025-Feb-22 00:00:00.0000,  1.419420516383105E+09, -2.218769033119255E+08, -5.273963231878991E+07, -1.349891644844408E+01,  9.232050373196861E+00,  1.741574489752738E+00,
+2460756.500000000, A.D. 2025-Mar-22 00:00:00.0000,  1.421746667533764E+09, -1.990105424991399E+08, -5.314227062643268E+07,  3.240851977157369E+00,  2.168024289226704E+01, -6.921937699262146E+00,
+2460787.500000000, A.D. 2025-Apr-22 00:00:00.0000,  1.423613645922857E+09, -1.734994182528446E+08, -5.361253356842667E+07,  1.088677442896492E+01,  1.759531801401281E+01, -5.563862551641529E+00,
+2460817.500000000, A.D. 2025-May-22 00:00:00.0000,  1.424857753306184E+09, -1.487005587674637E+08, -5.406735744031757E+07,  1.424227760817773E+01,  5.178932954484287E+00,  4.291822653440800E-01,
+$$EOE
+**************************************************************************************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Calendar dates are given in the modern Gregorian system, extended prior to
+its 1582-Oct-15 adoption. The Gregorian calendar more closely corresponds to
+physical Earth seasons and orbital motion, but can differ by up to 10 days with
+historical records made under the prior Julian calendar, more if the Julian
+calendar was extended prior to its 45-Jan-1 BC adoption to label the historical
+event. Select "mixed" calendar mode if correlation with historical dates prior
+to A.D. 1582 is important.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

@@ -1,0 +1,116 @@
+*******************************************************************************
+ Revised: Mar 12, 2021           Ganymede / (Jupiter)                       503
+
+ SATELLITE PHYSICAL PROPERTIES:
+  Mean radius (km)       = 2631.2   +- 1.7    Density (g cm^-3)= 1.942 +- 0.005
+  GM (km^3/s^2)          = 9887.8328+- 0.0074 Geometric Albedo = 0.43  +- 0.02
+
+ SATELLITE ORBIT (at J2000.0 epoch, 2000-Jan-1.5):
+  Semi-major axis, a (km) ~ 1,070,000         Orbital period   ~ 7.155 d
+  Eccentricity, e         ~ 0.00146           Rotational period= Synchronous
+  Inclination, i  (deg)   ~ 0.207 
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Wed May 29 09:23:40 2024 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Ganymede (503)                  {source: jup365_merged}
+Center body name: Solar System Barycenter (0)     {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2024-May-22 00:00:00.0000 TDB
+Stop  time      : A.D. 2025-May-23 00:00:00.0000 TDB
+Step-size       : 1 calendar months
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)
+Output units    : KM-S
+Calendar mode   : Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,
+**************************************************************************************************************************************************************************************************
+$$SOE
+2460452.500000000, A.D. 2024-May-22 00:00:00.0000,  3.928690097831007E+08,  6.368756820266650E+08, -1.149117031606716E+07, -3.715456423859806E+00, -3.391499357420538E-01,  2.932733006370350E-02,
+2460483.500000000, A.D. 2024-Jun-22 00:00:00.0000,  3.640681533745216E+08,  6.566452109852294E+08, -1.084415236757362E+07, -8.575587339863930E+00,  1.741172067840137E+01,  6.722414057379691E-01,
+2460513.500000000, A.D. 2024-Jul-22 00:00:00.0000,  3.332840206812491E+08,  6.750972428340635E+08, -1.019741925142437E+07, -2.061863348425336E+01,  1.286091052772222E+01,  3.610009986299705E-01,
+2460544.500000000, A.D. 2024-Aug-22 00:00:00.0000,  2.994515650802062E+08,  6.907547064418987E+08, -9.598505263746947E+06, -1.340548530266945E+01, -4.944683713912293E+00, -1.821338907937808E-01,
+2460575.500000000, A.D. 2024-Sep-22 00:00:00.0000,  2.681303689033311E+08,  7.045023606494431E+08, -8.947447955721557E+06, -2.339518024044258E+00,  9.527425229845690E+00,  5.601361228825312E-01,
+2460605.500000000, A.D. 2024-Oct-22 00:00:00.0000,  2.364684499545530E+08,  7.184315571598821E+08, -8.229314749948055E+06, -1.308413753153911E+01,  1.556195802321067E+01,  6.688903576632255E-01,
+2460636.500000000, A.D. 2024-Nov-22 00:00:00.0000,  2.009258651794097E+08,  7.310550382088895E+08, -7.510643842703164E+06, -2.189952402071776E+01, -1.742740638732954E+00, -8.516641424506477E-02,
+2460666.500000000, A.D. 2024-Dec-22 00:00:00.0000,  1.672296929831814E+08,  7.398046542766970E+08, -6.857806723452717E+06, -1.062324807880778E+01, -7.098938274281963E+00, -9.898482706266254E-02,
+2460697.500000000, A.D. 2025-Jan-22 00:00:00.0000,  1.342979340175005E+08,  7.478519694034957E+08, -6.114077061974525E+06, -4.904221455357767E+00,  1.017789887016592E+01,  6.719027297289895E-01,
+2460728.500000000, A.D. 2025-Feb-22 00:00:00.0000,  9.893278874187592E+07,  7.566709558901259E+08, -5.296633267243505E+06, -2.344761839194079E+01,  5.698879306644552E+00,  2.648694286763953E-01,
+2460756.500000000, A.D. 2025-Mar-22 00:00:00.0000,  6.762776281228605E+07,  7.612860809323751E+08, -4.611254974575698E+06, -2.027903649931353E+01,  1.001627657163404E+01,  5.002012673623910E-01,
+2460787.500000000, A.D. 2025-Apr-22 00:00:00.0000,  3.048513129670196E+07,  7.648638643725030E+08, -3.876210861352742E+06, -1.682149616306559E+01, -9.067871217913607E+00, -1.514946059420881E-01,
+2460817.500000000, A.D. 2025-May-22 00:00:00.0000, -3.444292246564539E+06,  7.659376777752516E+08, -3.159427317282736E+06, -4.903716031063633E+00, -6.418415058408524E+00,  1.458347551567019E-01,
+$$EOE
+**************************************************************************************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Calendar dates are given in the modern Gregorian system, extended prior to
+its 1582-Oct-15 adoption. The Gregorian calendar more closely corresponds to
+physical Earth seasons and orbital motion, but can differ by up to 10 days with
+historical records made under the prior Julian calendar, more if the Julian
+calendar was extended prior to its 45-Jan-1 BC adoption to label the historical
+event. Select "mixed" calendar mode if correlation with historical dates prior
+to A.D. 1582 is important.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
