@@ -21,8 +21,8 @@ Zusätzliche Klassen, Interfaces, Methoden und Variablen dürfen eingefügt werd
 keine geschachtelten oder (anonymen) inneren Klassen, also keine Klassen, die in einer anderen
 Klasse, einem Objekt oder einer Methode stehen. Wenn Sie zusätzlich zu den gefragten
 Klassen weitere Klassen definieren, achten Sie darauf, dass die Klassen im
-Unterverzeichnis [AB5](../src/AB5) erstellt werden und als erste Zeile die Deklaration
-`package AB5;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
+Unterverzeichnis [AB5Muster](../src/AB5) erstellt werden und als erste Zeile die Deklaration
+`package AB5Muster;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
 Implementieren Sie keine unnötigen Getter-/Setter-Methoden.
 
 ## Ziel

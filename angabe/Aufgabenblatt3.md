@@ -14,8 +14,8 @@ Zusätzliche Klassen, Interfaces, Methoden und Variablen dürfen eingefügt werd
 keine geschachtelten oder (anonymen) inneren Klassen, also keine Klassen, die in einer anderen
 Klasse, einem Objekt oder einer Methode stehen. Wenn Sie zusätzlich zu den gefragten
 Klassen weitere Klassen definieren, achten Sie darauf, dass die Klassen im
-Unterverzeichnis [AB3](../src/AB3) erstellt werden und als erste Zeile die Deklaration
-`package AB3;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
+Unterverzeichnis [AB3Muster](../src/AB3) erstellt werden und als erste Zeile die Deklaration
+`package AB3Muster;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
 Implementieren Sie keine unnötigen Getter-/Setter-Methoden.
 
 ## Ziel
@@ -60,10 +60,10 @@ Ihre Aufgaben sind folgende:
 3. Vervollständigen Sie die gegebene Klasse [Simulation](../src/AB3/Simulation.java) unter 
    Verwendung der Klassen [BodyQueue](../src/AB3/BodyQueue.java) und
    [BodyAccelerationTreeMap](../src/AB3/BodyAccelerationTreeMap.java), sodass sich die Klasse 
-   bei Ausführung wie die bereits bestehende Klasse [AB1/Simulation](../src/AB1/Simulation.java) 
+   bei Ausführung wie die bereits bestehende Klasse [AB1Muster/Simulation](../src/AB1/Simulation.java) 
    verhält. 
-   Sie können auch den Code von [AB2/Simulation](../src/AB2/Simulation.java) als 
-   Basis verwenden. Kollisionen sollen in AB3 aber wieder berücksichtigt werden. Die Zugriffe auf 
+   Sie können auch den Code von [AB2Muster/Simulation](../src/AB2/Simulation.java) als 
+   Basis verwenden. Kollisionen sollen in AB3Muster aber wieder berücksichtigt werden. Die Zugriffe auf 
    die Himmelskörper der Simulation sollen über Methoden von [BodyQueue](../src/AB3/BodyQueue.java) 
    erfolgen. Die Klasse [BodyAccelerationTreeMap](../src/AB3/BodyAccelerationTreeMap.java) soll 
    zur Verwaltung der Beschleunigungsvektoren benutzt werden.

@@ -10,8 +10,8 @@ Vorgegebene Programmteile dürfen nur an den Stellen verändert werden, die mit 
 Zusätzliche Klassen, Interfaces, Methoden und Variablen dürfen aber eingefügt werden.
 Implementieren Sie keine unnötigen Getter-/Setter-Methoden. Wenn Sie zusätzlich zu den gefragten
 Klassen weitere Klassen definieren, achten Sie darauf, dass die Klassen im
-Unterverzeichnis [AB2](../src/AB2) erstellt werden und als erste Zeile die Deklaration
-`package AB2;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
+Unterverzeichnis [AB2Muster](../src/AB2) erstellt werden und als erste Zeile die Deklaration
+`package AB2Muster;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
 
 ## Ziel
 
@@ -40,7 +40,7 @@ Skriptum Seiten 50-59).
 Ihre Aufgaben sind folgende:
 
 1. Kopieren Sie den Code-Block mit der Klassendefinition von
-   [Body](../src/AB1/Body.java) aus AB1 in die Datei `AB2/Body.java`, das
+   [Body](../src/AB1/Body.java) aus AB1Muster in die Datei `AB2Muster/Body.java`, das
    betrifft alle Programmzeilen nach `public class Body {`. Fügen Sie in der neuen Klasse 
    [Body](../src/AB2/Body.java) eine öffentliche Objektmethode `getMass()` hinzu, die die Masse des 
    Himmelkörpers zurückliefert.
@@ -81,11 +81,11 @@ Ihre Aufgaben sind folgende:
      // index where to insert: right + 1
    ```
 4. Kopieren Sie den Code-Block mit der Klassendefinition von 
-   [Simulation](../src/AB1/Simulation.java) aus AB1 in die Datei `AB2/Simulation.java`, das 
+   [Simulation](../src/AB1/Simulation.java) aus AB1Muster in die Datei `AB2Muster/Simulation.java`, das 
    betrifft alle Programmzeilen nach `public class Simulation {`. (Ändern Sie nichts an den `import`
    Anweisungen.) Ändern Sie die Klassendefinition so, dass keine Kollisionen von Himmelskörpern 
    mehr berücksichtigt werden. Die Anzahl der Himmelskörper ändert sich im Laufe der Simulation 
-   somit nicht. Testen Sie die Simulation von AB2.
+   somit nicht. Testen Sie die Simulation von AB2Muster.
 5. Ändern Sie nun die neue Klasse [Simulation](../src/AB2/Simulation.java) so, dass zur Verwaltung 
    der Himmelskörper anstelle des Arrays Objekte der Klassen [BodyQueue](../src/AB2/BodyQueue.java)
    und [BodyAccelerationMap](../src/AB2/BodyAccelerationMap.java) verwendet werden. Das heißt, 

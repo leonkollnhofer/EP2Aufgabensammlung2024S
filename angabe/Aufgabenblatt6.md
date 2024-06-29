@@ -25,8 +25,8 @@ Zusätzliche Klassen, Interfaces, Methoden und Variablen dürfen eingefügt werd
 keine geschachtelten oder (anonymen) inneren Klassen, also keine Klassen, die in einer anderen
 Klasse, einem Objekt oder einer Methode stehen. Wenn Sie zusätzlich zu den gefragten
 Klassen weitere Klassen definieren, achten Sie darauf, dass die Klassen im
-Unterverzeichnis [AB6](../src/AB6) erstellt werden und als erste Zeile die Deklaration
-`package AB6;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
+Unterverzeichnis [AB6Muster](../src/AB6) erstellt werden und als erste Zeile die Deklaration
+`package AB6Muster;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
 Implementieren Sie keine unnötigen Getter-/Setter-Methoden.
 
 ## Ziel
@@ -40,11 +40,11 @@ Abstraktionen, Sichtweise vs. Kopie, Sortieren (siehe Skriptum Seite 91-105).
   [IntConst](../src/AB6/IntConst.java), [IntVar](../src/AB6/IntVar.java), 
   [IntVarIterable](../src/AB6/IntVarIterable.java),
   [IntVarIterator](../src/AB6/IntVarIterator.java), [IntVarTerm](../src/AB6/IntVarTerm.java),
-  [ConstVarProduct](../src/AB6/ConstVarProduct.java) kennen Sie bereits aus AB5. Die 
-  Klassengerüste können Sie mit den entsprechenden Kopien Ihrer Lösung aus AB5 ersetzen.
+  [ConstVarProduct](../src/AB6/ConstVarProduct.java) kennen Sie bereits aus AB5Muster. Die 
+  Klassengerüste können Sie mit den entsprechenden Kopien Ihrer Lösung aus AB5Muster ersetzen.
 - [IntVarConstMap](../src/AB6/IntVarConstMap.java) ist ein vollständig gegebenes Interfaces
   für assoziative Datenstrukturen, die Schlüssel vom Typ `IntVar` mit Werten vom Typ `IntConst` 
-  assoziieren. Dieses unterscheidet sich von [AB5.IntVarConstMap](../src/AB5/IntVarConstMap.java)
+  assoziieren. Dieses unterscheidet sich von [AB5Muster.IntVarConstMap](../src/AB5/IntVarConstMap.java)
   dadurch, dass anstelle der Methode `keyQueue()` jetzt die Methode `keySet()` zur Verfügung 
   gestellt wird.
 - [IntVarSet](../src/AB6/IntVarSet.java) ist das Interface für Objekte, die von `keySet()`
@@ -74,18 +74,18 @@ Abstraktionen, Sichtweise vs. Kopie, Sortieren (siehe Skriptum Seite 91-105).
 
 ## Aufgaben
 Ihre Aufgaben sind folgende:
-1. Kopieren Sie die entsprechenden Klassendefinitionen aus AB5 in die entsprechenden Dateien
-   von AB6. Achten Sie jedoch darauf, dass bei der Implementierung keine Definitionen aus AB5 
-   benutzt werden, sondern nur Klassen aus AB6. Passen Sie die `package` Deklarationen an.
-2. Durch das geänderte Interface [AB6.IntVarConstMap](../src/AB6/IntVarConstMap.java) ändert 
-   sich in AB6 auch die Implementierung der Klasse
+1. Kopieren Sie die entsprechenden Klassendefinitionen aus AB5Muster in die entsprechenden Dateien
+   von AB6Muster. Achten Sie jedoch darauf, dass bei der Implementierung keine Definitionen aus AB5Muster 
+   benutzt werden, sondern nur Klassen aus AB6Muster. Passen Sie die `package` Deklarationen an.
+2. Durch das geänderte Interface [AB6Muster.IntVarConstMap](../src/AB6/IntVarConstMap.java) ändert 
+   sich in AB6Muster auch die Implementierung der Klasse
    [IntVarConstHashMap](../src/AB6/IntVarConstHashMap.java), die wieder als Gerüst vorgegeben 
-   und zu vervollständigen ist. Sie können aber die gültigen Teile der Klassendefinition aus AB5 
+   und zu vervollständigen ist. Sie können aber die gültigen Teile der Klassendefinition aus AB5Muster 
    kopieren und anpassen. [IntVarConstTreeMap](../src/AB6/IntVarConstTreeMap.java) soll ebenfalls
    [IntVarConstMap](../src/AB6/IntVarConstMap.java) implementieren. Hier können Sie Teile aus
-   AB4 kopieren. Kopieren Sie auch die entsprechende Klassendefinition aus AB5 nach
+   AB4Muster kopieren. Kopieren Sie auch die entsprechende Klassendefinition aus AB5Muster nach
    [SumOfTerms](../src/AB6/SumOfTerms.java) und passen Sie sie so an, dass Sie mit den Klassen
-   aus AB6 funktioniert.
+   aus AB6Muster funktioniert.
 3. Aktivieren Sie die default-Implementierungen der gegebenen Methoden in 
    [Condition](../src/AB6/Condition.java) und vervollständigen Sie alle Klassen, die 
    dieses Interface implementieren, gemäß der Kommentare in den gegebenen Dateien.

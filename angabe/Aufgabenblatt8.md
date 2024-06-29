@@ -28,8 +28,8 @@ Zusätzliche Klassen, Interfaces, Methoden und Variablen dürfen eingefügt werd
 keine geschachtelten oder (anonymen) inneren Klassen, also keine Klassen, die in einer anderen
 Klasse, einem Objekt oder einer Methode stehen. Wenn Sie zusätzlich zu den gefragten
 Klassen weitere Klassen definieren, achten Sie darauf, dass die Klassen im
-Unterverzeichnis [AB8](../src/AB8) erstellt werden und als erste Zeile die Deklaration
-`package AB8;` enthalten. Implementieren Sie keine unnötigen Getter-/Setter-Methoden.
+Unterverzeichnis [AB8Muster](../src/AB8) erstellt werden und als erste Zeile die Deklaration
+`package AB8Muster;` enthalten. Implementieren Sie keine unnötigen Getter-/Setter-Methoden.
 
 ## Ziel
 Ziel der Aufgabe ist das Verständnis und die Anwendung der Konzepte: Java-Collections, 
@@ -42,8 +42,8 @@ Iterator als Sichtweise, Eingabe mit Validierung, Exceptions (S. 110-123).
   [BodyIterable](../src/AB8/BodyIterable.java), [BodyIterator](../src/AB8/BodyIterator.java),
   [SystemComparator](../src/AB8/SystemComparator.java),
   [DistanceComparator](../src/AB8/DistanceComparator.java),
-  [MassComparator](../src/AB8/MassComparator.java) kennen Sie schon aus AB7. In AB8 wurden im 
-  Vergleich zu AB7 in 
+  [MassComparator](../src/AB8/MassComparator.java) kennen Sie schon aus AB7Muster. In AB8Muster wurden im 
+  Vergleich zu AB7Muster in 
   [HierarchicalSystem](../src/AB8/HierarchicalSystem.java) Spezifikationen geändert, und in  
   [BodyIterator](../src/AB8/BodyIterator.java) und 
   [SystemComparator](../src/AB8/SystemComparator.java) Methoden ergänzt, was Änderungen in weiteren 
@@ -67,7 +67,7 @@ Iterator als Sichtweise, Eingabe mit Validierung, Exceptions (S. 110-123).
   Einlesen von Position- und Bewegungsvektoren von Himmelskörpern aus Dateien. 
   Diese sollen Sie vervollständigen.
 - [Simulation](../src/Simulation.java) ist ein Gerüst für eine ausführbare Klasse. Hier soll
-  die Simulation analog zur Klasse [AB7.Simulation](../src/AB7/Simulation.java) implementiert 
+  die Simulation analog zur Klasse [AB7Muster.Simulation](../src/AB7/Simulation.java) implementiert 
   werden, mit dem Unterschied, dass die Bewegungsdaten der Himmelskörper aus Dateien eingelesen 
   und validiert werden. Dabei auftretende Ausnahmen werden behandelt (=abgefangen).
 - [Test](../src/AB8/Test.java) ist eine vorgegebene Klasse, die Sie zum Testen Ihrer
@@ -78,8 +78,8 @@ Iterator als Sichtweise, Eingabe mit Validierung, Exceptions (S. 110-123).
   Klasse nicht verändern, können aber eigene Testfälle hinzufügen.
 
 ## Aufgaben
-1. Nutzen Sie als Vorlage für die folgenden Implementierungen Ihre Lösungen aus AB7, das 
-   heißt, kopieren Sie relevante Teile aus AB7 nach AB8, wie zum Beispiel 
+1. Nutzen Sie als Vorlage für die folgenden Implementierungen Ihre Lösungen aus AB7Muster, das 
+   heißt, kopieren Sie relevante Teile aus AB7Muster nach AB8Muster, wie zum Beispiel 
    [Body](../src/AB8/Body.java), [MultiBody](../src/AB8/MultiBody.java), etc..
 2. Implementieren Sie [SystemComparator](../src/AB8/SystemComparator.java) in 
    [LexicographicOrderComparator](../src/AB8/LexicographicOrderComparator.java),
@@ -119,7 +119,7 @@ Iterator als Sichtweise, Eingabe mit Validierung, Exceptions (S. 110-123).
       Nutzen Sie Objekte von `HierarchicalSystem` und ihre Iteratoren, um die 
       Himmelskörper der Simulation zu verwalten und Untersysteme graphisch darzustellen. Zusätzlich 
       können Sie das java-Collection-Framework nutzen 
-      (siehe auch [AB7.Simulation](../src/AB7/Simulation.java)).
+      (siehe auch [AB7Muster.Simulation](../src/AB7/Simulation.java)).
       Ändern Sie die Klasse `Simulation` so, dass sie zwei Kommandozeilenargumente verarbeitet. 
       Das erste Argument ist ein String mit der Angabe des Pfades zum Verzeichnis, wo die 
       entsprechenden txt-Dateien (z.B. `Venus.txt`,`Mercury.txt`,`Earth.txt`) mit den Konfigurationen 
@@ -131,26 +131,26 @@ Iterator als Sichtweise, Eingabe mit Validierung, Exceptions (S. 110-123).
       Kommandozeileninterpreter mit entsprechenden Fehlermeldungen (Sie können zum Ausführen das 
       Terminal in IntelliJ nutzen oder die Programmargumente unter `Edit Configurations` angeben):
       ```
-           $ javac -cp .:../lib/CodeDraw.jar AB8/*.java
-           $ java -cp .:../lib/CodeDraw.jar AB8.Simulation ../states 2024-May-22
+           $ javac -cp .:../lib/CodeDraw.jar AB8Muster/*.java
+           $ java -cp .:../lib/CodeDraw.jar AB8Muster.Simulation ../states 2024-May-22
            Running simulation ...
-           $ java -cp .:../lib/CodeDraw.jar AB8.Simulation ../states
+           $ java -cp .:../lib/CodeDraw.jar AB8Muster.Simulation ../states
            Error: wrong number of arguments.
-           $ java -cp .:../lib/CodeDraw.jar AB8.Simulation ../states 2027-Dec-22
+           $ java -cp .:../lib/CodeDraw.jar AB8Muster.Simulation ../states 2027-Dec-22
            Warning: State not available for Sun.
            Running simulation without Sun.
            Warning: State not available for Mercury.
            Running simulation without Mercury.
            ...
-           $ java -cp .:../lib/CodeDraw.jar AB8.Simulation ../states-altered 2024-May-22
+           $ java -cp .:../lib/CodeDraw.jar AB8Muster.Simulation ../states-altered 2024-May-22
            Warning: File ../states-altered/Venus.txt does not have required format. 
            Running simulation without Venus.
            Warning: File ../states-altered/Mars.txt not found. 
            Running simulation without Mars.
            Running simulation ...
-           $ java -cp .:../lib/CodeDraw.jar AB8.Simulation ../states -17
+           $ java -cp .:../lib/CodeDraw.jar AB8Muster.Simulation ../states -17
            Error: State has wrong format (requires YYYY-MM-DD), aborting. 
-           $ java -cp .:../lib/CodeDraw.jar AB8.Simulation blah 2024-May-22
+           $ java -cp .:../lib/CodeDraw.jar AB8Muster.Simulation blah 2024-May-22
            Warning: File blah/Sun.txt not found. 
            Running simulation without Sun.
            Warning: File blah/Mercury.txt not found. 

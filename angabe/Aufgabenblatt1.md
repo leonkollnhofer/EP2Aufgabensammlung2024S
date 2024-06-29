@@ -14,8 +14,8 @@ Vorgegebene Programmteile dürfen nur an den Stellen verändert werden, die mit 
 Zusätzliche Klassen, Interfaces, Methoden und Variablen dürfen aber eingefügt werden.
 Implementieren Sie keine unnötigen Getter-/Setter-Methoden. Wenn Sie zusätzlich zu den gefragten
 Klassen weitere Klassen definieren, achten Sie darauf, dass die Klassen im
-Unterverzeichnis [AB1](../src/AB1) erstellt werden und als erste Zeile die Deklaration
-`package AB1;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
+Unterverzeichnis [AB1Muster](../src/AB1) erstellt werden und als erste Zeile die Deklaration
+`package AB1Muster;` enthalten, um Konflikte mit späteren Aufgabenblättern zu vermeiden.
 
 ## Verwendung in IntelliJ
 
